@@ -93,7 +93,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Row */}
-      <div className="border-t border-white mb-7">
+      <div className="border-t border-white mb-6">
         <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between text-sm text-gray-600">
           <p>© 2018 Ecommerce theme by www.bisenbaev.com</p>
           <div className="flex space-x-4 mt-3 md:mt-0">

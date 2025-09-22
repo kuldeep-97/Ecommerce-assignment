@@ -37,8 +37,8 @@ export default function Sidebar({ onFilterChange }) {
 
   return (
 
-    <div className="w-[380px] mt-19 ">
-      <aside className="w-full h-full bg-white  p-4 hidden md:block">
+    
+      <aside className=" w-[27%] bg-white  p-4 hidden md:block mt-19">
         {/* Categories */}
         <div className="mb-7 bg-gray-100 rounded-xl p-6 ">
           <h3 className="font-medium text-xl text-black-800 mb-13">Hot Deals</h3>
@@ -118,6 +118,6 @@ export default function Sidebar({ onFilterChange }) {
           </button>
         </div>
       </aside>
-    </div>
+    
   );
 }

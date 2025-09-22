@@ -18,7 +18,7 @@ function Pagination({ currentPage, totalPages, setCurrentPage }) {
         <button
           key={i}
           onClick={() => handlePageChange(i + 1)}
-          className={`px-3 py-1 rounded-md ${currentPage === i + 1
+          className={`px-3 py-1 font-semibold text-xl rounded-md ${currentPage === i + 1
             ? "bg-[#40bfff] text-white"
             : "hover:bg-gray-300"
             }`}
