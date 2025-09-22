@@ -6,7 +6,7 @@ const FilterItem = () => {
 
             {/* Left section */}
             <div className="flex items-center space-x-16 ">
-                <span className="text-gray-700 font-medium">13 Items</span>
+                <span className="text-gray-700 font-medium">24 Items</span>
 
                 {/* Sort By */}
                 <div className="flex items-center space-x-3">

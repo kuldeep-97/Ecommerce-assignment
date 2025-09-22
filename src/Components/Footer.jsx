@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#BCDDFE] mt-2 ">
       {/* 1st row */}
-      <div className="w-[100%] mx-auto px-22 pt-10 pb-8 grid grid-cols-1 md:grid-cols-3 gap-40  mt-4">
+      <div className="max-w-7xl mx-auto px-22 pt-10 pb-8 grid grid-cols-1 md:grid-cols-3 gap-40  mt-4">
         {/* Logo + About */}
         <div>
           <div className="flex items-center mb-3 ">
@@ -93,7 +93,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Row */}
-      <div className="border-t border-white mb-8">
+      <div className="border-t border-white mb-7">
         <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between text-sm text-gray-600">
           <p>© 2018 Ecommerce theme by www.bisenbaev.com</p>
           <div className="flex space-x-4 mt-3 md:mt-0">

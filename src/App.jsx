@@ -1,29 +1,46 @@
-import Navbar from "./Components/Navbar";
-import Sidebar from "./Components/Sidebar";
-import Footer from "./Components/Footer";
-import Home from "./Pages/Home";
+import MainLayout from "./Layout/MainLayout";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import Contact from "./Pages/Contact";
 import HeroBanner from "./Components/HeroBanner";
 import FilterItem from "./Components/FilterItem";
+import Home from "./Pages/Home";
+import ProductDetail from "./Components/ProductDetail";
+import CategoryPage from "./Pages/CategoryPage";
+import ShopNow from "./Pages/Shopnow";
 
 
 
-function App() {
+// routes
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <MainLayout />,
+    children: [
+      {
+        path: "/", element: (
+          <>
+            <HeroBanner />
+            <FilterItem />
+            <Home />
+          </>
+        )
+      },
+      { path: "/product/:id", element: <ProductDetail /> },
+      { path: "/shopnow/", element: <ShopNow /> },
+      { path: "/category/:category", element: <CategoryPage /> },
+      { path: "contact", element: <Contact /> },
+    ],
+  },
+]);
+
+
+
+export default function App() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar />
-
-      <div className="flex flex-1">
-        <Sidebar />
-        <main className="flex-1 p-3">
-          <HeroBanner></HeroBanner>
-          <FilterItem></FilterItem>
-          <Home />
-        </main>
-      </div>
-
-      <Footer />
-    </div>
+    <main><RouterProvider router={router} /></main>
   );
 }
 
-export default App;
+
+

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const HeroBanner = () => {
   return (
@@ -9,7 +10,9 @@ const HeroBanner = () => {
         <p className="mb-4 font-medium text-3xl ">Adidas Men Running <br /> Sneakers</p>
         <p>Performance and design. Taken right to the edge</p>
         <button className="border-b-2 border-white font-semibold hover:opacity-80">
-         SHOP NOW
+          <Link to="/shopnow">  SHOP NOW
+          </Link>
+       
         </button>
       </div>
 
