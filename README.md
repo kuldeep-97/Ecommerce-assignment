@@ -48,12 +48,16 @@ It includes product listing, filters, pagination, and a clean UI with modern sty
 ### 🏠 Home Page
 ![Home Page](./screenshots/home.png)
 
-![Home page](<img width="2824" height="1472" alt="Screenshot 2025-09-22 224741" src="https://github.com/user-attachments/assets/b3359c05-f2dd-47ba-9a9b-5c4cbda74bf3" />)
+![Home page](<img width="2824" height="1472" alt="Screenshot 2025-09-22 224741" src="https://github.com/user-attachments/assets/b3359c05-f2dd-47ba-9a9b-5c4cbda74bf3" />
+
+)
 
 ![Footer](<img width="2827" height="1495" alt="Screenshot 2025-09-22 224754" src="https://github.com/user-attachments/assets/aa5eea26-3840-4254-804c-c0a21ed9ed88" />
 
 )
-![Shop Now Page](<img width="2830" height="1490" alt="Screenshot 2025-09-22 224815" src="https://github.com/user-attachments/assets/04a3b709-1b7a-4f32-b559-71bb8993a0a0" />)
+![Shop Now Page](<img width="2830" height="1490" alt="Screenshot 2025-09-22 224815" src="https://github.com/user-attachments/assets/04a3b709-1b7a-4f32-b559-71bb8993a0a0" />
+
+)
 
 
 ![Product detail page](<img width="2828" height="1498" alt="Screenshot 2025-09-22 224843" src="https://github.com/user-attachments/assets/cd3c95d2-954e-4fe5-b504-5089d0468700" />
@@ -69,6 +73,14 @@ It includes product listing, filters, pagination, and a clean UI with modern sty
 )
 
 ![alt text](image.png)
+
+
+
+## Live Link 
+
+https://e-commercc.netlify.app/
+
+
 
 
 ##  Installation
